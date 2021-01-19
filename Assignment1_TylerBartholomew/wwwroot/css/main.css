@@ -1,5 +1,19 @@
 ﻿body {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    align-content: center;
+    background-color: lightblue;
+}
+
+.box {
+    position: fixed;
+    width: 25%;
+    background-color: whitesmoke;
+    border-radius:20px;
+    border: 20px solid;
+    border-color: whitesmoke;
+    left: 35%;
+    top: 15%;
+    
 }
 
 label {
@@ -11,4 +25,9 @@ label {
 
 ul.quiz-props li {
     list-style-type: none;
+}
+
+img {
+    max-width: 25%;
+    height: auto;
 }
